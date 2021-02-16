@@ -4,7 +4,7 @@
   "description": "storytime's node.js server",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js",
+    "test": "node test.js",
     "start": "node server.js"
   },
   "repository": {
