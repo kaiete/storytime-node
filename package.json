@@ -1,0 +1,20 @@
+{
+  "name": "storytime-node",
+  "version": "1.0.0",
+  "description": "storytime's node.js server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiete/storytime-node.git"
+  },
+  "author": "kaiete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaiete/storytime-node/issues"
+  },
+  "homepage": "https://github.com/kaiete/storytime-node#readme"
+}
