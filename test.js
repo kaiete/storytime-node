@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, hostname, () => {
   console.log(`TextWrite server running at http://${hostname}:${port}/`);
-  setTimeout("server.close()",10000)
+  server.close()
 });
 },
 }
