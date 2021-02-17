@@ -21,6 +21,5 @@ server.listen(port, hostname, () => {
 });
 },
 }
-storytime.makeserver(80)
-storytime.makeserver(443)
+storytime.makeserver(1280)
 //yes, this is copied from textwrite's tw.js
