@@ -3,7 +3,7 @@ var storytime = {
     const http = require('http');
     const fs = require('fs')
 
-const hostname = 'https://project-storytime.herokuapp.com/'
+const hostname = 'localhost'
 const port = portToHost;
 
 const server = http.createServer((req, res) => {
