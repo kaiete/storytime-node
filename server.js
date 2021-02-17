@@ -3,7 +3,7 @@ var storytime = {
     const http = require('http');
     const fs = require('fs')
 
-const hostname = '127.0.0.1'
+const hostname = 'https://project-storytime.herokuapp.com/'
 const port = portToHost;
 
 const server = http.createServer((req, res) => {
@@ -21,6 +21,6 @@ server.listen(port, hostname, () => {
 });
 },
 }
-storytime.makeserver(1560)
-storytime.makeserver(7650)
+storytime.makeserver(80)
+storytime.makeserver(443)
 //yes, this is copied from textwrite's tw.js
